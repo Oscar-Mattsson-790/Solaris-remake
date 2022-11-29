@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Secular+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&family=Secular+One&display=swap");
+
+body {
+  box-sizing: border-box;
+  background: linear-gradient(90deg, #0c164d 0%, #190b22 100%);
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  font-family: "Secular One", sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: 0.09em;
+  margin-bottom: 0px;
+  margin-top: 10rem;
+}
+
+h2 {
+  color: #ffd029;
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0.6em;
+  margin-top: 10px;
+}
+
+h3 {
+  color: #ffffff;
+}
+
+h4 {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+p {
+  color: #ffffff;
+  padding-right: 40rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 40rem;
+}
+
+.main__content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20rem;
+}
+
+.main__content__infobox__1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.main__content__infobox__2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.sun {
+  position: absolute;
+  background: #ffd029;
+  box-shadow: 0px 0px 250px rgba(255, 208, 41, 0.2);
+  border-top-right-radius: 100rem;
+  border-bottom-right-radius: 100rem;
+  width: 1278px;
+  height: 1278px;
+  left: -1160px;
+  top: -140px;
+}
+
+.test-line {
+  width: 640px;
+  height: 0px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
+}
