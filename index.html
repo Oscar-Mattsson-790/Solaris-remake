@@ -8,59 +8,84 @@
     <title>Remake Solaris</title>
   </head>
   <body>
-    <main class="main-contianer">
-      <article class="sun"></article>
-      <section class="main__content">
-        <h1 class="main__content__header1">jorden</h1>
-        <h2 class="main__content__header2">tellus</h2>
-        <p class="main__content__header__paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, nostrum
-          ullam iste eligendi corrupti corporis nesciunt nisi quia pariatur nemo
-          voluptatibus minus eius amet officiis ex dicta tempora quis
-          voluptates. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Sapiente non voluptatem quis odit in! Beatae, cupiditate corrupti,
-          architecto iusto veniam quisquam, ullam est soluta eveniet nam dolore
-          optio et sint.
-        </p>
+    <!-- page one -->
+
+    <main class="main-container">
+      <section class="container__sun">
+        <article class="sun"></article>
       </section>
 
-      <div class="test-line"></div>
+      <section class="container__header page1">
+        <h1>solsystemet</h1>
+        <h2>solaris</h2>
+      </section>
 
-      <div class="wrapper">
-        <section class="main__content__infobox__1">
-          <article>
-            <h4>omkrets</h4>
-            <h3>40 075 km</h3>
-          </article>
-          <article>
-            <h4>max temperatur</h4>
-            <h3>60 C</h3>
-          </article>
-        </section>
-
-        <section class="main__content__infobox__2">
-          <article>
-            <h4>mkm från solen</h4>
-            <h3>149600 600 km</h3>
-          </article>
-          <article>
-            <h4>min temperatur</h4>
-            <h3>-50 C</h3>
-          </article>
-        </section>
-      </div>
-
-      <section class="main__content__infobox__3">
-        <div class="test-line"></div>
-        <article>
-          <h4>månar</h4>
-          <h3>månen</h3>
+      <section class="container__planetbox page1">
+        <article class="merkurius"></article>
+        <article class="venus"></article>
+        <article class="jorden"></article>
+        <article class="mars"></article>
+        <article class="jupiter"></article>
+        <article class="saturnus">
+          <img class="saturnus-ring" src="/css/img/Ellipse 10.png" />
         </article>
+        <article class="uranus"></article>
+        <article class="neptunus"></article>
       </section>
+
+      <!-- page two -->
+      <section class="planet__container">
+        <section class="container__planet__info">
+          <h1>jorden</h1>
+          <h2>tellus</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+            ducimus sint at illum recusandae, odit sequi rem vero ex corrupti
+            nisi tenetur mollitia deleniti quos itaque saepe id iste unde? Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit
+            suscipit odio beatae sit saepe dolore. Provident sunt totam ipsum
+            voluptas, eveniet explicabo dignissimos praesentium voluptatum, in
+            facere, accusamus dicta atque!
+          </p>
+          <div class="text-line"></div>
+        </section>
+
+        <section class="planet__datainfo__container">
+          <section class="planet__datainfo__box1">
+            <article>
+              <h3>omkrets</h3>
+              <h4>200</h4>
+            </article>
+            <article>
+              <h3>omkrets</h3>
+              <h4>200</h4>
+            </article>
+          </section>
+          <section class="planet__datainfo__box2">
+            <article>
+              <h3>omkrets</h3>
+              <h4>200</h4>
+            </article>
+            <article>
+              <h3>omkrets</h3>
+              <h4>200</h4>
+            </article>
+          </section>
+          <section class="planet__datainfo__box3">
+            <div class="text-line"></div>
+            <article>
+              <h3>månar</h3>
+              <h4>månen</h4>
+            </article>
+          </section>
+        </section>
+      </section>
+
+      <!-- footer for both pages -->
+      <footer class="container__footer">
+        <img src="/css/img/Vector.png" />
+      </footer>
     </main>
-    <footer class="footer__container">
-      <img src="/css/img/Vector.png" />
-    </footer>
 
     <script type="module" src="/js/main.js"></script>
   </body>
