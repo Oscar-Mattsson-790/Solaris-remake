@@ -9,33 +9,32 @@
   </head>
   <body>
     <!-- page one -->
-
     <main class="main-container">
       <section class="container__sun">
-        <article class="sun"></article>
+        <article class="sun" id="0"></article>
       </section>
 
-      <section class="container__header page1">
+      <section class="container__header pageOne">
         <h1>solsystemet</h1>
         <h2>solaris</h2>
       </section>
 
-      <section class="container__planetbox page1">
-        <article class="merkurius"></article>
-        <article class="venus"></article>
-        <article class="jorden"></article>
-        <article class="mars"></article>
-        <article class="jupiter"></article>
-        <article class="saturnus">
+      <section class="container__planetbox pageOne">
+        <article class="merkurius" id="1"></article>
+        <article class="venus" id="2"></article>
+        <article class="jorden" id="3"></article>
+        <article class="mars" id="4"></article>
+        <article class="jupiter" id="5"></article>
+        <article class="saturnus" id="6">
           <img class="saturnus-ring" src="/css/img/Ellipse 10.png" />
         </article>
-        <article class="uranus"></article>
-        <article class="neptunus"></article>
+        <article class="uranus" id="7"></article>
+        <article class="neptunus" id="8"></article>
       </section>
 
       <!-- page two -->
       <section class="planet__container">
-        <section class="container__planet__info">
+        <section class="container__header__info">
           <h1>jorden</h1>
           <h2>tellus</h2>
           <p>
@@ -52,40 +51,41 @@
 
         <section class="planet__datainfo__container">
           <section class="planet__datainfo__box1">
-            <article>
+            <article class="box__inner">
               <h3>omkrets</h3>
-              <h4>200</h4>
+              <h4>40 075 km</h4>
             </article>
             <article>
-              <h3>omkrets</h3>
-              <h4>200</h4>
+              <h3>km från solen</h3>
+              <h4>149 600 000 km</h4>
             </article>
           </section>
           <section class="planet__datainfo__box2">
-            <article>
-              <h3>omkrets</h3>
-              <h4>200</h4>
+            <article class="box__inner">
+              <h3>max temperatur</h3>
+              <h4>60 C</h4>
             </article>
             <article>
-              <h3>omkrets</h3>
-              <h4>200</h4>
+              <h3>min temperatur</h3>
+              <h4>-50 C</h4>
             </article>
           </section>
           <section class="planet__datainfo__box3">
             <div class="text-line"></div>
-            <article>
+            <article class="moon">
               <h3>månar</h3>
-              <h4>månen</h4>
+              <h4>Månen</h4>
+              <button>⤺</button>
             </article>
           </section>
         </section>
       </section>
 
       <!-- footer for both pages -->
-      <footer class="container__footer">
-        <img src="/css/img/Vector.png" />
-      </footer>
     </main>
+    <footer class="container__footer">
+      <img src="/css/img/Vector.png" />
+    </footer>
 
     <script type="module" src="/js/main.js"></script>
   </body>
