@@ -40,7 +40,7 @@ function getPlanetInfo(planetId) {
   getPlanets().then((data) => {
     console.log(data);
     data.forEach((planet, index) => {
-      planetId === index;
+      planetId == planet;
       console.log("Planet och index: ", planet, index);
     });
   });
@@ -48,20 +48,26 @@ function getPlanetInfo(planetId) {
 getPlanetInfo();
 
 // Click event for planets
-sunPlanet.addEventListener("click", () => {
+sunPlanet.addEventListener("click", (event) => {
+  getPlanetInfo(event.target.id);
+
   pageOne.style.display = "none";
   planetBox.style.display = "none";
   pageTwo.style.display = "block";
 });
 
-merkuriusPlanet.addEventListener("click", () => {
+merkuriusPlanet.addEventListener("click", (event) => {
+  getPlanetInfo(event.target.id);
+
   sunPlanet.style.backgroundColor = "#888888";
   pageOne.style.display = "none";
   planetBox.style.display = "none";
   pageTwo.style.display = "block";
 });
 
-venusPlanet.addEventListener("click", () => {
+venusPlanet.addEventListener("click", (event) => {
+  getPlanetInfo(event.target.id);
+
   sunPlanet.style.backgroundColor = "#e7cdcd";
   pageOne.style.display = "none";
   planetBox.style.display = "none";
@@ -82,33 +88,43 @@ marsPlanet.addEventListener("click", (event) => {
   console.log(event);
 
   sunPlanet.style.backgroundColor = "#ef5f5f";
+  getPlanetInfo(event.target.id);
+
   pageOne.style.display = "none";
   planetBox.style.display = "none";
   pageTwo.style.display = "block";
 });
 
-jupiterPlanet.addEventListener("click", () => {
+jupiterPlanet.addEventListener("click", (event) => {
+  getPlanetInfo(event.target.id);
+
   sunPlanet.style.backgroundColor = "#e29468";
   pageOne.style.display = "none";
   planetBox.style.display = "none";
   pageTwo.style.display = "block";
 });
 
-saturnusPlanet.addEventListener("click", () => {
+saturnusPlanet.addEventListener("click", (event) => {
+  getPlanetInfo(event.target.id);
+
   sunPlanet.style.backgroundColor = "#c7aa72";
   pageOne.style.display = "none";
   planetBox.style.display = "none";
   pageTwo.style.display = "block";
 });
 
-uranusPlanet.addEventListener("click", () => {
+uranusPlanet.addEventListener("click", (event) => {
+  getPlanetInfo(event.target.id);
+
   sunPlanet.style.backgroundColor = "#c9d4f1";
   pageOne.style.display = "none";
   planetBox.style.display = "none";
   pageTwo.style.display = "block";
 });
 
-neptunusPlanet.addEventListener("click", () => {
+neptunusPlanet.addEventListener("click", (event) => {
+  getPlanetInfo(event.target.id);
+
   sunPlanet.style.backgroundColor = "#7a91a7";
   pageOne.style.display = "none";
   planetBox.style.display = "none";
