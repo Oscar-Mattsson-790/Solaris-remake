@@ -40,8 +40,9 @@ function getPlanetInfo(planetId) {
   getPlanets().then((data) => {
     console.log(data);
     data.forEach((planet, index) => {
-      planetId == planet;
-      console.log("Planet och index: ", planet, index);
+      if (planetId == planet) {
+        console.log("Planet och index: ", planet, index);
+      }
     });
   });
 }
